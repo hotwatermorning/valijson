@@ -1130,6 +1130,7 @@
 					GTEST_HAS_PARAM_TEST,
 					PICOJSON_USE_INT64,
 				);
+				GCC_WARN_SIGN_COMPARE = YES;
 				HEADER_SEARCH_PATHS = (
 					"../thirdparty/gtest-1.7.0/include",
 					"../thirdparty/gtest-1.7.0",
@@ -1157,6 +1158,7 @@
 					GTEST_HAS_PARAM_TEST,
 					PICOJSON_USE_INT64,
 				);
+				GCC_WARN_SIGN_COMPARE = YES;
 				HEADER_SEARCH_PATHS = (
 					"../thirdparty/gtest-1.7.0/include",
 					"../thirdparty/gtest-1.7.0",
