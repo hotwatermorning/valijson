@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project (valijson)
 
-SET(CMAKE_CXX_FLAGS_DEBUG  "-O0 -g")
+SET(CMAKE_CXX_FLAGS_DEBUG  "-O0 -g -Wall -Werror")
 
 add_definitions(-DBOOST_ALL_DYN_LINK)
 set(Boost_USE_STATIC_LIBS OFF)
